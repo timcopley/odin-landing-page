@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    width: 1500px;
+    background-color: white;
+    margin: auto;
+}
+
+.header, .hero {
+    background-color: #1F2937;   
+    color: #F9FAF8;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.header-links {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    color: #E5E7EB;
+    gap: 20px;
+}
