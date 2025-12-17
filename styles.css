@@ -1,12 +1,15 @@
-body {
-    background-color: black;
-    font-family: Roboto;
+* {
     margin: 0;
     padding: 0;
 }
 
+body {
+    background-color: black;
+    font-family: Roboto;
+}
+
 .content {
-    width: 1500px;
+    width: 1400px;
     background-color: white;
     margin: auto;
 }
@@ -18,18 +21,21 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 15px 0;
 }
 
 .header-logo {
     font-size: 24px;
     font-weight: 700;
+    padding-left: 200px;
 }
 
 .header-links {
     font-size: 18px;
     font-weight: 300;
+    padding-right: 200px;
 }
 
 ul {
@@ -37,4 +43,44 @@ ul {
     list-style-type: none;
     color: #E5E7EB;
     gap: 20px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 200px;
+    gap: 50px;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-sub {
+    font-size: 18px;
+    font-weight: 300;   
+    color: #E5E7EB;
+    margin-bottom: 15px;
+}
+
+.hero-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 30px;
+    border-radius: 8px;
+}
+
+.hero-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(107, 109, 116);
+    color: #E5E7EB;
+    width: 500px;
+    height: 250px;
 }
