@@ -170,3 +170,15 @@ ul {
     border-radius: 10px;
     padding: 5px 30px;
 }
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.footer p {
+    text-align: center;
+    padding: 40px 0;
+    font-size: 18px;
+    font-weight: 300;
+}
