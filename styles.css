@@ -117,3 +117,26 @@ ul {
     height: 150px;
     margin-bottom: 8px;
 }
+
+.quote-section {
+    background-color: #E5E7EB;
+}
+
+.quote-container {
+    width: 800px;
+    padding: 80px 0;
+    margin: auto;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-signature {
+    text-align: right;
+    font-weight: bold;
+    font-size: 24px;
+}
