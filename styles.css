@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -83,4 +84,36 @@ ul {
     color: #E5E7EB;
     width: 500px;
     height: 250px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 40px 0;
+}
+
+.info-cards {
+    display: flex;
+    gap: 45px;
+    margin-bottom: 100px;
+}
+
+.info-card {
+    width: 150px;
+    text-align: center;
+}
+
+.info-card-placeholder {
+    border: solid #3882F6 4px;
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 8px;
 }
