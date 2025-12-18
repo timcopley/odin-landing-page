@@ -140,3 +140,33 @@ ul {
     font-weight: bold;
     font-size: 24px;
 }
+
+.cta-container {
+    background-color: #3882F6;
+    border-radius: 10px;
+    width: 1000px;
+    margin: 60px auto;
+    padding: 50px 120px;
+    color:#F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-text h3 {
+    font-size: 24px;
+}
+
+.cta-text p {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.cta-button-signup {
+    background-color: transparent;
+    color: #F9FAF8;
+    font-size: 18px;
+    border: solid #F9FAF8 2px;
+    border-radius: 10px;
+    padding: 5px 30px;
+}
